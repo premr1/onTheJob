@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>1.0.0</modelVersion>
+    <parent>
+        <groupId>com.learning.service</groupId>
+        <artifactId>service-parent</artifactId>
+        <version>1.2.1</version>
+    </parent>
+    <groupId>com.learning.trainsupply</groupId>
+    <artifactId>trainsupply-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-trains-SNAPSHOT</version>
+    <name>Train Supply Service</name>
+    <description>Train Supply Service</description>
+
+    <!-- various module in the project -->
+    <modules>
+        <!-- individual module -->
+        <module></module>
+    </modules>
+
+    <properties>
+        <!-- various version of software used -->
+
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>nameofRepo</id>
+        </repository>
+    </repositories>
+
+    <scm>
+
+    </scm>
+
+    <dependencyManagement>
+
+
+    </dependencyManagement>
+    <dependencies>
+
+        <dependency>
+            <groupId>xxx</groupId>
+            <artifactId>xxxxxx</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+    <plugins>
+        <plugin>
+            <artifactId>xxxx</artifactId>
+        </plugin>
+    </plugins>
+
+    </build>
+</project>
