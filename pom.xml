@@ -7,8 +7,8 @@
         <artifactId>service-parent</artifactId>
         <version>1.2.1</version>
     </parent>
-    <groupId>com.learning.trainsupply</groupId>
-    <artifactId>trainsupply-parent</artifactId>
+    <groupId>com.learning.ticketSupply</groupId>
+    <artifactId>ticketSupply-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-trains-SNAPSHOT</version>
     <name>Train Supply Service</name>
@@ -27,7 +27,9 @@
 
     <repositories>
         <repository>
-            <id>nameofRepo</id>
+            <id>git-premr</id>
+            <name>premr's Git based repo</name>
+            <url>https://github.com/premr1/onTheJob/raw/master</url>
         </repository>
     </repositories>
 
@@ -36,7 +38,15 @@
     </scm>
 
     <dependencyManagement>
-
+        <dependencies> <!-- default dependency for child modules-->
+            <dependency>
+                <groupId>groupID</groupId>
+                <artifactId>artifactId</artifactId>
+                <version>1.0.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
 
     </dependencyManagement>
     <dependencies>
@@ -47,11 +57,11 @@
         </dependency>
     </dependencies>
     <build>
-    <plugins>
-        <plugin>
-            <artifactId>xxxx</artifactId>
-        </plugin>
-    </plugins>
+        <plugins>
+            <plugin>
+                <artifactId>xxxx</artifactId>
+            </plugin>
+        </plugins>
 
     </build>
 </project>
