@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>1.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.learning.service</groupId>
         <artifactId>service-parent</artifactId>
@@ -10,9 +10,9 @@
     <groupId>com.learning.ticketSupply</groupId>
     <artifactId>ticketSupply-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0-trains-SNAPSHOT</version>
-    <name>Train Supply Service</name>
-    <description>Train Supply Service</description>
+    <version>1.0.0-ticket-SNAPSHOT</version>
+    <name>Ticket Supply Service</name>
+    <description>Ticket Supply Service</description>
 
     <!-- various module in the project -->
     <modules>
@@ -25,13 +25,13 @@
 
     </properties>
 
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>git-premr</id>
             <name>premr's Git based repo</name>
             <url>https://github.com/premr1/onTheJob/raw/master</url>
         </repository>
-    </repositories>
+    </repositories>-->
 
     <scm>
 
