@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ticketSupply-parent</artifactId>
+        <groupId>com.learning.ticketSupply</groupId>
+        <version>1.0.0-ticket-SNAPSHOT</version>
+    </parent>
+    <artifactId>ticketsupply-service</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>war</packaging>
+    <name>Ticket Supply Service</name>
+    <description>Ticket Supply Service</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.learning.ticketSupply</groupId>
+            <artifactId>ticketsupply-routing</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.learning.ticketSupply</groupId>
+            <artifactId>ticketsupply-commons</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.learning.ticketSupply</groupId>
+            <artifactId>ticketsupply-model</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+
+
+</project>

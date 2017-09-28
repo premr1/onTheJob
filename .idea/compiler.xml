@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ticketsupply-commons" />
+        <module name="ticketsupply-model" />
+        <module name="ticketsupply-routing" />
+        <module name="ticketsupply-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="onTheJob" target="1.8" />
+      <module name="ticketsupply-commons" target="1.8" />
+      <module name="ticketsupply-model" target="1.8" />
+      <module name="ticketsupply-routing" target="1.8" />
+      <module name="ticketsupply-service" target="1.8" />
+      <module name="ticketsupplyservice" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
